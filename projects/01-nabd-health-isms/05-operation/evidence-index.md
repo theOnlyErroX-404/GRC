@@ -45,7 +45,7 @@ risk, and names the owner and retention period.
 | EVD-19 | A.8.8, A.8.29 | Vulnerability scan reports, patch SLA report, penetration test summary and retest | `05-operation/penetration-test-summary.md`; engineering and security folders | CTO | 2027-03-31 | 3 years |
 | EVD-20 | A.5.19 to A.5.23 | Supplier register, due diligence records, DPAs, and contract amendments | `05-operation/supplier-register.csv`; contract repository | CFO | 2027-04-15 | 6 years for contracts |
 | EVD-21 | A.5.31, A.5.34, A.8.10 | Records of processing, DPIA, cross-border assessment, DSR procedure and register | Privacy folder; `04-policies/data-retention-and-privacy-policy.md` | CFO | 2027-04-30 | 6 years |
-| EVD-22 | A.5.35, 9.2 | Internal audit plan, report, findings, and working papers | `06-performance/internal-audit-plan.md`; `06-performance/internal-audit-report.md` | CEO | 2027-04-23 | 6 years |
+| EVD-22 | A.5.35, 9.2 | Simulated internal audit plan, report, findings, and working papers | `06-performance/internal-audit-plan.md`; `06-performance/internal-audit-report.md` | ISMS Manager | 2027-04-23 | 6 years |
 | EVD-23 | 9.3 | Management review minutes and action log | `06-performance/management-review-minutes.md` | CEO | 2027-04-29 | 3 years |
 | EVD-24 | 10.1, 10.2 | Nonconformity and corrective action log with evidence of closure | `07-improvement/nonconformity-and-corrective-actions.csv` | ISMS Manager | 2027-04-30 | 3 years |
 | EVD-25 | 6.2, 9.1 | KPI report with targets and actuals | `06-performance/kpis-and-metrics.md` | ISMS Manager | 2027-04-15 | 3 years |

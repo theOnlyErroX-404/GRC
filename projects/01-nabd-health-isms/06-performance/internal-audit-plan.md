@@ -26,7 +26,7 @@ It satisfies clause 9.2 and provides the basis for certification readiness.
 2. Determine whether the ISMS is effectively implemented and maintained.
 3. Verify that risk treatment and the Statement of Applicability are consistent.
 4. Identify nonconformities, observations, and opportunities for improvement.
-5. Provide management with an independent basis for certification decisions.
+5. Provide management with a basis for certification decisions.
 
 ## 3. Scope and criteria
 
@@ -40,7 +40,7 @@ It satisfies clause 9.2 and provides the basis for certification readiness.
 
 ## 4. Independence and competence
 
-The audit is performed by Mona Ashraf, an independent contracted lead auditor with ISO
+The audit is performed by Mona Ashraf, a contracted lead auditor with ISO
 27001 Lead Auditor competence and healthcare SaaS experience. She has no operational
 role at Nabd and no conflict of interest. A technical advisor may support cloud and
 application testing under her direction. The auditor signs a confidentiality undertaking.

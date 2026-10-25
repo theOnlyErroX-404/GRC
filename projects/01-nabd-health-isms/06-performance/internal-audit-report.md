@@ -29,7 +29,7 @@ Three **minor nonconformities** were raised:
 No major nonconformities were found. Four observations and two opportunities for
 improvement were recorded. The ISMS is assessed as **conforming and effectively
 implemented**, subject to closure of the nonconformities. Certification readiness is
-supported, with Stage 1 planned for June 2027.
+supported, with Nabd Health's planned Stage 1 audit (fictional).
 
 ## 2. Scope, criteria, and method
 
@@ -42,8 +42,8 @@ supported, with Stage 1 planned for June 2027.
 | Methods | Interviews, document review, sampling, technical verification, observation |
 | Sampling | 6 leavers, 12 access records, 10 changes, 8 supplier records, 5 incidents, 4 backup and restore records, 20 controls tested |
 
-The audit followed the plan in NH-AUD-001. The auditor was independent and had no
-operational role at Nabd.
+The audit followed the plan in NH-AUD-001. The auditor is a simulated role played by
+the same author; it is not a real independent audit.
 
 ## 3. Summary of findings
 
@@ -56,12 +56,12 @@ operational role at Nabd.
 | OBS-02 | Observation | A.8.7 | No endpoint detection and response; EDR planned Q3 2027 | R-07, R-17 | CTO | 2027-09-30 | Open |
 | OBS-03 | Observation | A.5.13 | Labelling inconsistent in legacy documents and SaaS records | R-12, R-21 | ISMS Manager | 2027-07-31 | Open |
 | OBS-04 | Observation | A.8.14 | Cross-region restore not yet tested; single primary region | R-03 | CTO | 2027-06-15 | Open |
-| OFI-01 | Improvement | 9.1 | Automate access review evidence collection | — | DevOps Lead | 2027-09-30 | Open |
-| OFI-02 | Improvement | 9.1 | Add design and operating effectiveness testing to quarterly KPI | — | ISMS Manager | 2027-07-31 | Open |
+| OFI-01 | Improvement | 9.1 | Automate access review evidence collection | N/A | DevOps Lead | 2027-09-30 | Open |
+| OFI-02 | Improvement | 9.1 | Add design and operating effectiveness testing to quarterly KPI | N/A | ISMS Manager | 2027-07-31 | Open |
 
 ## 4. Nonconformities
 
-### NC-01 — Incomplete staging data masking
+### NC-01: Incomplete staging data masking
 
 **Requirement:** A.8.11 Data masking; A.8.33 Test information; clause 6.1.3 treatment
 action T-13.
@@ -89,7 +89,7 @@ coverage percentage in KPI reporting. Owner: DevOps Lead. Due: 15 May 2027.
 **Auditor note:** The correction is effective. The corrective action remains open until
 the automated check has operated for one full refresh cycle.
 
-### NC-02 — Leaver access not removed
+### NC-02: Leaver access not removed
 
 **Requirement:** A.5.18 Access rights; A.6.5 Responsibilities after termination; procedure
 NH-PRC-001.
@@ -111,7 +111,7 @@ against SaaS accounts monthly, and automate deprovisioning through SCIM where av
 Owner: HR Manager and IT Support Officer. Due: 30 April 2027. Verified and closed on
 28 April 2027 after the updated checklist and monthly reconciliation were evidenced.
 
-### NC-03 — Tier 1 supplier assessments incomplete
+### NC-03: Tier 1 supplier assessments incomplete
 
 **Requirement:** A.5.19, A.5.22; NH-POL-007.
 
@@ -134,7 +134,7 @@ calendar with named owners, and report completion monthly in KPI-14. Owner: CFO.
 
 ## 5. Observations
 
-### OBS-01 — Threat intelligence is informal
+### OBS-01: Threat intelligence is informal
 
 Nabd receives vendor and sector advisories and reviews GuardDuty findings, but there is
 no collection plan, no defined intelligence requirements, and no record of how
@@ -142,19 +142,19 @@ intelligence changes priorities. The control is partially implemented and risk-b
 formalizing it would improve vulnerability and supplier decisions. Recommendation:
 define three to five intelligence requirements and a monthly review record.
 
-### OBS-02 — No endpoint detection and response
+### OBS-02: No endpoint detection and response
 
 Windows Defender and macOS protections are enabled and managed, but there is no EDR.
 Given the phishing and ransomware threat to healthcare, EDR would improve detection on
 endpoints. The control is partially implemented with a planned Q3 2027 rollout.
 
-### OBS-03 — Labelling inconsistent
+### OBS-03: Labelling inconsistent
 
 Classification labels are applied to templates, repositories, and new documents, but
 legacy documents and some SaaS records are unlabelled. Recommendation: label on touch
 and add a metadata field to the document template.
 
-### OBS-04 — Cross-region restore not tested
+### OBS-04: Cross-region restore not tested
 
 The Q1 restore test proved recovery in the primary region. Cross-region recovery remains
 untested, which limits assurance against a regional outage. The test is scheduled for
@@ -186,10 +186,11 @@ effectively implemented. No major nonconformity was identified. The nonconformit
 capable of closure within the agreed dates and do not prevent the Stage 1 certification
 audit from proceeding.
 
-**Recommendation:** proceed with Stage 1 in June 2027, subject to closure of NC-01 and
-NC-03 and completion of the open treatment actions for R-12, R-15, and R-22.
+**Recommendation:** proceed with Nabd Health's planned Stage 1 audit (fictional),
+subject to closure of NC-01 and NC-03 and completion of the open treatment actions for
+R-12, R-15, and R-22.
 
-## 9. Appendix — Controls sampled
+## 9. Appendix: Controls sampled
 
 A.5.1, A.5.2, A.5.9, A.5.10, A.5.12, A.5.15, A.5.17, A.5.18, A.5.19, A.5.20, A.5.22,
 A.5.24, A.5.26, A.5.29, A.5.30, A.5.33, A.5.34, A.5.35, A.6.3, A.6.5, A.6.7, A.7.2,

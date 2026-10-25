@@ -23,9 +23,9 @@ controlled.
 ## 2. Scope statement
 
 > The ISMS of Nabd Health for Digital Health Solutions S.A.E. covers the development,
-> hosting, operation, support, and continuous improvement of the Nabd Platform — the
+> hosting, operation, support, and continuous improvement of the Nabd Platform: the
 > Nabd Booking, Nabd Records, Nabd Connect, Nabd Billing, Nabd Patient App, and Nabd
-> Admin Panel services — including the supporting AWS accounts `nabd-prod` and
+> Admin Panel services: including the supporting AWS accounts `nabd-prod` and
 > `nabd-nonprod`, the Cairo office at L-01, and remote working by Nabd staff and
 > supervised Pixelwave contractors, in accordance with ISO/IEC 27001:2022 (including
 > Amendment 1:2024) and the requirements of interested parties recorded in NH-CTX-002.

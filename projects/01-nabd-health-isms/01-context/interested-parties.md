@@ -25,10 +25,10 @@ summaries for the simulation and are not legal advice.
 Parties were identified from the fact base, customer contracts, supplier list, employment
 records, and the project's legal context. Each requirement is classified as:
 
-- **L** — legal or regulatory
-- **C** — contractual
-- **B** — business or stakeholder expectation
-- **V** — voluntary commitment (policy, certification, insurer condition)
+- **L**: legal or regulatory
+- **C**: contractual
+- **B**: business or stakeholder expectation
+- **V**: voluntary commitment (policy, certification, insurer condition)
 
 Requirements are reviewed at least annually and when a contract, regulation, or
 stakeholder changes. The owner is accountable for confirming that the requirement
@@ -49,7 +49,7 @@ remains current and that the ISMS response is effective.
 | IP-09 | Ministry of Health and Population | External | Compliance with health data and telemedicine rules | Ministry rules (to be confirmed by counsel) | L | Scope controls, clinical data handling, retention, incident response | Regulatory correspondence | Annual | CFO |
 | IP-10 | Central Bank of Egypt | External | Compliance for payment flows | CBE requirements (to be confirmed) | L | Payment data kept at PayNile; supplier assurance; no card data stored | Regulatory correspondence | Annual | CFO |
 | IP-11 | Cyber insurer | External | Accurate declarations; minimum controls such as MFA and backups | Insurance policy and application | C, V | Corrected declaration, MFA enforcement, backup testing, incident notification | Renewal declaration, incident notification | Annual | CFO |
-| IP-12 | Certification body | External | A conforming ISMS and objective evidence | ISO/IEC 27001:2022 certification agreement | V | Full ISMS documentation, internal audit, management review, corrective actions | Stage 1 and Stage 2 audits | Annual | ISMS Manager |
+| IP-12 | Certification body | External | A conforming ISMS and objective evidence | ISO/IEC 27001:2022 certification agreement | V | ISMS documentation, internal audit, management review, corrective actions | Stage 1 and Stage 2 audits | Annual | ISMS Manager |
 | IP-13 | Critical suppliers (AWS, GitHub, Google, SMSGate, VideoBridge, PayNile, and others) | External | Clear requirements; timely incident information; lawful data handling | Supplier agreements and DPAs | C | Supplier register, due diligence, contract clauses, service reviews, exit planning | Supplier reviews, security contacts | Annual or on change | CFO |
 | IP-14 | Landlord (Cairo Tower Facilities) | External | Compliance with lease and building rules; no damage; cooperation on incidents | Lease agreement | C | Physical security policy, visitor and access coordination, incident escalation | Building management contact | Annual | Office Manager |
 | IP-15 | External law firm | External | Lawful instructions; confidentiality | Engagement letter | C | Confidentiality terms, need-to-know access, supplier controls | Engagement correspondence | Annual | CFO |

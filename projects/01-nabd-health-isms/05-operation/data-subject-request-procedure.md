@@ -45,20 +45,20 @@ within one business day.
 
 ## 4. Process
 
-1. **Log** — create a request record with ID `DSR-YYYY-NNN`, date, channel, requester,
+1. **Log**: create a request record with ID `DSR-YYYY-NNN`, date, channel, requester,
    and request type.
-2. **Acknowledge** — confirm receipt within the period required by PDPL and explain the
+2. **Acknowledge**: confirm receipt within the period required by PDPL and explain the
    next steps.
-3. **Verify identity** — use proportionate verification. Do not collect more data than
+3. **Verify identity**: use proportionate verification. Do not collect more data than
    necessary. For patient data, verify against the registered phone number or clinic
    confirmation.
-4. **Determine the role** — if Nabd is a processor, forward the request to the clinic as
+4. **Determine the role**: if Nabd is a processor, forward the request to the clinic as
    controller and support the response. If Nabd is the controller, handle it directly.
-5. **Assess** — identify the data, legal basis, exemptions, and any third-party rights.
-6. **Fulfil** — provide a copy, correct, delete, restrict, or explain why the request
+5. **Assess**: identify the data, legal basis, exemptions, and any third-party rights.
+6. **Fulfil**: provide a copy, correct, delete, restrict, or explain why the request
    cannot be met. Use secure delivery.
-7. **Record** — document the decision, actions, and evidence.
-8. **Close** — inform the requester of the outcome and their right to complain to the
+7. **Record**: document the decision, actions, and evidence.
+8. **Close**: inform the requester of the outcome and their right to complain to the
    regulator.
 
 ## 5. Timelines

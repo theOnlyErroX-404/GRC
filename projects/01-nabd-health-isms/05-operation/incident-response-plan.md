@@ -72,14 +72,14 @@ When uncertain, assign the higher severity until triage is complete.
 
 ## 6. Response workflow
 
-### Phase 1 — Report and acknowledge
+### Phase 1: Report and acknowledge
 
 1. The reporter contacts the channel and provides the initial report (Appendix A).
 2. The on-call person acknowledges within the target and opens an incident record with a
    unique ID (`INC-YYYY-NNN`).
 3. The incident commander is assigned based on severity.
 
-### Phase 2 — Triage and assess
+### Phase 2: Triage and assess
 
 1. Confirm whether an incident exists and assign severity.
 2. Identify affected systems, accounts, data categories, customers, and patients.
@@ -87,7 +87,7 @@ When uncertain, assign the higher severity until triage is complete.
 4. Preserve evidence before making changes where possible.
 5. Open a decision log and notify the required people.
 
-### Phase 3 — Contain
+### Phase 3: Contain
 
 - Revoke sessions, tokens, and credentials.
 - Disable compromised accounts and rotate secrets.
@@ -96,26 +96,26 @@ When uncertain, assign the higher severity until triage is complete.
 - Preserve copies of logs and affected data.
 - Avoid destroying evidence through rebuilds until captured.
 
-### Phase 4 — Eradicate
+### Phase 4: Eradicate
 
 - Identify and remove the root cause.
 - Patch, rebuild, or reconfigure affected systems.
 - Verify that persistence mechanisms are removed.
 - Validate with scanning, log review, and, where needed, external support.
 
-### Phase 5 — Recover
+### Phase 5: Recover
 
 - Restore from a known-good backup where required (NH-PRC-004).
 - Validate data integrity before returning to service.
 - Monitor closely for recurrence.
 - Confirm service levels and customer impact with the COO.
 
-### Phase 6 — Notify
+### Phase 6: Notify
 
 Use the matrix in Section 7. Notifications are factual, approved by the CEO and counsel,
 and coordinated with the customer account manager. Do not speculate on cause or scope.
 
-### Phase 7 — Learn
+### Phase 7: Learn
 
 - Hold a post-incident review within 10 business days.
 - Record timeline, root cause, impact, response effectiveness, and lessons.
@@ -214,7 +214,7 @@ communication; the CFO owns regulator and insurer communication.
 - Plan reviewed annually and after every Severity 1 or 2 incident.
 - Exercise results and actions are reported in NH-KPI-001 and management review.
 
-## 12. Appendix A — Initial incident report
+## 12. Appendix A: Initial incident report
 
 | Field | Entry |
 |---|---|
@@ -228,7 +228,7 @@ communication; the CFO owns regulator and insurer communication.
 | Initial severity | |
 | Incident commander | |
 
-## 13. Appendix B — Decision log
+## 13. Appendix B: Decision log
 
 | Time | Decision | Made by | Rationale | Follow-up |
 |---|---|---|---|---|

@@ -189,7 +189,7 @@ A recovery report is issued within 10 business days and actions are tracked in N
 | Contact list review | Quarterly | ISMS Manager |
 | BIA and plan review | Annually and after major change | CTO |
 
-## 13. Appendix A — Decision log
+## 13. Appendix A: Decision log
 
 | Time | Decision | Made by | Rationale | Follow-up |
 |---|---|---|---|---|

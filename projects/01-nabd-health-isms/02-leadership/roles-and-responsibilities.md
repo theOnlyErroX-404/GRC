@@ -27,7 +27,7 @@ flowchart TD
     CEO --> SC["Security and Risk Committee\nCEO, CTO, COO, CFO, CPO, ISMS Manager"]
     SC --> ISMSM["ISMS Manager\nAhmed Rizk (50%)"]
     ISMSM --> RISK["Risk owners\nDepartment heads"]
-    ISMSM --> AUDIT["Internal auditor\nindependent, contracted"]
+    ISMSM --> AUDIT["Internal auditor\ncontracted, simulated"]
     CTO["CTO\nOmar Nasser"] --> ENG["Engineering Manager\nSara Lotfy"]
     ENG --> DEV["DevOps Lead\nAhmed Rizk"]
     COO["COO\nDina Mostafa"] --> SUP["Head of Support\nNour El-Din Abbas"]
@@ -42,7 +42,7 @@ progress, and makes decisions within the risk appetite approved by the CEO.
 
 ## 3. Role descriptions
 
-### 3.1 CEO — ISMS sponsor
+### 3.1 CEO: ISMS sponsor
 
 - Accountable to the board for information security and the ISMS.
 - Approves the information security policy, scope, risk appetite, and material risk
@@ -52,7 +52,7 @@ progress, and makes decisions within the risk appetite approved by the CEO.
 - Holds the certification relationship and represents security to customers, investors,
   and the board.
 
-### 3.2 CTO — technology and security owner
+### 3.2 CTO: technology and security owner
 
 - Owns the technology risk portfolio and the operational ISMS.
 - Approves technical standards, architecture decisions, and access exceptions within
@@ -65,7 +65,8 @@ progress, and makes decisions within the risk appetite approved by the CEO.
 
 - Maintains the ISMS documentation set and the document index.
 - Coordinates risk assessment, treatment planning, and the Statement of Applicability.
-- Plans and coordinates internal audit and corrective actions with the independent
+- Plans and coordinates internal audit and corrective actions with the contracted
+  auditor (simulated).
   auditor.
 - Tracks KPIs, prepares management review inputs, and reports on ISMS performance.
 - Maintains the legal and contractual requirements register with the CFO.
@@ -180,7 +181,7 @@ responsibilities. The ISMS Manager maintains a competence matrix covering ISO/IE
 and internal audit. Records are held with HR.
 
 Where competence gaps are identified, training is planned, funded, and its effectiveness
-evaluated. The internal auditor must be independent of the activities audited and must
+evaluated. The internal auditor must be separate from the activities audited and must
 have audit competence; where internal competence is insufficient, an external
 competent auditor is contracted.
 

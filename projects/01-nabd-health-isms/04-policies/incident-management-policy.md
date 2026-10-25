@@ -66,19 +66,19 @@ more severe until triage is complete.
 
 ## 6. Response phases
 
-1. **Prepare** — maintain the plan, contacts, templates, access, and evidence tools;
+1. **Prepare**: maintain the plan, contacts, templates, access, and evidence tools;
    exercise at least twice a year.
-2. **Detect and report** — receive alerts and reports, log them, and assign an incident
+2. **Detect and report**: receive alerts and reports, log them, and assign an incident
    owner.
-3. **Assess** — confirm whether an incident exists, determine severity, affected data,
+3. **Assess**: confirm whether an incident exists, determine severity, affected data,
    systems, and customers, and preserve evidence.
-4. **Contain** — revoke access, isolate systems, block indicators, and prevent further
+4. **Contain**: revoke access, isolate systems, block indicators, and prevent further
    harm while preserving business continuity.
-5. **Eradicate** — remove the cause, patch, rebuild, and verify that the threat is gone.
-6. **Recover** — restore services, validate integrity, and monitor for recurrence.
-7. **Notify** — inform executives, customers, regulators, insurers, and law enforcement
+5. **Eradicate**: remove the cause, patch, rebuild, and verify that the threat is gone.
+6. **Recover**: restore services, validate integrity, and monitor for recurrence.
+7. **Notify**: inform executives, customers, regulators, insurers, and law enforcement
    as required and within contractual or legal deadlines.
-8. **Learn** — hold a post-incident review within ten business days, record lessons, and
+8. **Learn**: hold a post-incident review within ten business days, record lessons, and
    create corrective actions.
 
 The operational detail is in NH-PRC-003.

@@ -43,14 +43,14 @@ least-privileged, and attributable. It supports A.5.15, A.5.18, A.8.2, and A.8.3
 
 ## 4. Process
 
-1. **Prepare** — the reviewer exports the access list and compares it with the HR list.
-2. **Identify exceptions** — accounts without an active person, excessive roles, shared
+1. **Prepare**: the reviewer exports the access list and compares it with the HR list.
+2. **Identify exceptions**: accounts without an active person, excessive roles, shared
    accounts, dormant accounts, and access without an approved request.
-3. **Decide** — for each account, record one of: retain, reduce, remove, or investigate.
-4. **Act** — changes are made within five working days; security concerns are actioned
+3. **Decide**: for each account, record one of: retain, reduce, remove, or investigate.
+4. **Act**: changes are made within five working days; security concerns are actioned
    immediately.
-5. **Confirm** — the reviewer records completion, decisions, and evidence.
-6. **Report** — metrics and exceptions go to the CTO and the Security and Risk Committee.
+5. **Confirm**: the reviewer records completion, decisions, and evidence.
+6. **Report**: metrics and exceptions go to the CTO and the Security and Risk Committee.
 
 ## 5. Review criteria
 

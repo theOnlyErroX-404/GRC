@@ -40,15 +40,15 @@ acts as the point of contact for data subjects and the regulator.
 
 ## 4. Privacy principles
 
-1. **Lawfulness and fairness** — process data only for a documented purpose and lawful
+1. **Lawfulness and fairness**: process data only for a documented purpose and lawful
    basis.
-2. **Purpose limitation** — do not use patient data for secondary purposes without a
+2. **Purpose limitation**: do not use patient data for secondary purposes without a
    lawful basis.
-3. **Minimization** — collect and retain only what is necessary.
-4. **Accuracy** — provide mechanisms to correct inaccurate data.
-5. **Storage limitation** — delete or anonymize data when the retention period ends.
-6. **Integrity and confidentiality** — apply the controls in this ISMS.
-7. **Accountability** — maintain records of processing, DPIA, and evidence.
+3. **Minimization**: collect and retain only what is necessary.
+4. **Accuracy**: provide mechanisms to correct inaccurate data.
+5. **Storage limitation**: delete or anonymize data when the retention period ends.
+6. **Integrity and confidentiality**: apply the controls in this ISMS.
+7. **Accountability**: maintain records of processing, DPIA, and evidence.
 
 ## 5. Records of processing
 

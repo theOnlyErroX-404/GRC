@@ -32,14 +32,14 @@ hospital contracts."
 
 Risk assessment considers:
 
-- **Confidentiality** — unauthorized disclosure of patient, customer, employee, or
+- **Confidentiality**: unauthorized disclosure of patient, customer, employee, or
   business information.
-- **Integrity** — unauthorized or accidental alteration of records, code, or
+- **Integrity**: unauthorized or accidental alteration of records, code, or
   configuration.
-- **Availability** — disruption of the platform, support, or recovery capability.
-- **Compliance** — failure to meet legal, regulatory, contractual, or certification
+- **Availability**: disruption of the platform, support, or recovery capability.
+- **Compliance**: failure to meet legal, regulatory, contractual, or certification
   obligations.
-- **People and safety** — harm to patients or staff arising from a security failure.
+- **People and safety**: harm to patients or staff arising from a security failure.
 
 ## 3. Risk assessment process
 

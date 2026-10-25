@@ -28,13 +28,13 @@ Nabd information.
 
 ## 3. Principles
 
-1. **Least privilege** — users receive the minimum access required for their role.
-2. **Need to know** — access to patient data requires a documented support or clinical
+1. **Least privilege**: users receive the minimum access required for their role.
+2. **Need to know**: access to patient data requires a documented support or clinical
    purpose.
-3. **Unique identity** — every action must be attributable to one person. Shared
+3. **Unique identity**: every action must be attributable to one person. Shared
    accounts and shared credentials are prohibited.
-4. **Default deny** — access is granted explicitly and expires when no longer needed.
-5. **Tenant isolation** — clinic data is isolated by clinic ID and enforced in
+4. **Default deny**: access is granted explicitly and expires when no longer needed.
+5. **Tenant isolation**: clinic data is isolated by clinic ID and enforced in
    application code and access reviews.
 
 ## 4. Account lifecycle

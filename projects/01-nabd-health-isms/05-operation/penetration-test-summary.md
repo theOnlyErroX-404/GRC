@@ -5,7 +5,7 @@
 | Document ID | NH-SEC-001 |
 | Test window | 8–19 March 2027 |
 | Report date | 22 March 2027 |
-| Tester | NileSec Security Consultants (simulated, independent) |
+| Tester | NileSec Security Consultants (simulated) |
 | Owner | Omar Nasser, CTO |
 | Classification | Internal (simulated client confidential) |
 
@@ -42,11 +42,11 @@ exfiltrated; evidence was minimized and shared through an encrypted portal.
 | High | 1 | 1 | 0 |
 | Medium | 2 | 2 | 0 |
 | Low | 4 | 3 | 1 accepted |
-| Informational | 3 | — | — |
+| Informational | 3 | N/A | N/A |
 
 ## 4. High finding
 
-### PT-01 — Broken object-level authorization in appointment metadata
+### PT-01: Broken object-level authorization in appointment metadata
 
 **Affected:** `GET /api/v1/appointments/{id}` for authenticated clinic staff.
 
@@ -62,7 +62,7 @@ user could enumerate identifiers and infer activity at another clinic.
 appointment query, with a centralized authorization check and a regression test.
 Deployed on 16 March 2027.
 
-**Retest:** 24 March 2027 — not exploitable. Evidence retained.
+**Retest:** 24 March 2027; not exploitable. Evidence retained.
 
 ## 5. Medium findings
 

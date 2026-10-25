@@ -1,4 +1,4 @@
-# Access Review Record — Q1 2027
+# Access Review Record: Q1 2027
 
 | Field | Value |
 |---|---|
@@ -34,7 +34,7 @@ remove, or investigate.
 
 | Result | Count | Action |
 |---|---|---|
-| Accounts reviewed | 63 staff and contractors; 19 Admin Panel; 18 AWS; 39 GitHub | — |
+| Accounts reviewed | 63 staff and contractors; 19 Admin Panel; 18 AWS; 39 GitHub | N/A |
 | Accounts removed | 3 | 2 former Pixelwave contractors (GitHub); 1 dormant Slack account |
 | Accounts disabled pending investigation | 1 | Freshdesk account for a leaver (NC-02) |
 | Roles reduced | 4 | Admin Panel administrators reduced from 7 to 4; 2 AWS permission sets narrowed |

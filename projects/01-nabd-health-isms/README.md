@@ -1,11 +1,11 @@
-# Nabd Health ISMS — Simulated ISO/IEC 27001:2022 Implementation
+# Nabd Health ISMS: Simulated ISO/IEC 27001:2022 Implementation
 
 | Field | Value |
 |---|---|
-| Project | 01 — Nabd Health ISMS |
+| Project | 01: Nabd Health ISMS |
 | Standard | ISO/IEC 27001:2022 (including Amendment 1:2024) |
-| Simulated timeline | November 2026 to April 2027; Stage 1 planned June 2027 |
-| Status | Implementation complete through management review; 2 minor nonconformities open |
+| Simulated timeline | November 2026 to April 2027 |
+| Status | In progress: artifacts below are drafted; closing items remain |
 | Classification | Internal (simulated client confidential) |
 
 > **Everything here is fictional.** Nabd Health, its people, systems, suppliers,
@@ -34,19 +34,20 @@ single source of truth; every risk, control, and finding in this project traces 
 
 ## 2. What the project demonstrates
 
-This is a complete simulated ISMS engagement, not a document template pack:
+This simulated ISMS engagement covers the following areas; it is not a document template pack:
 
 - **Context and scope** derived from contracts, data flows, and a 22-gap baseline.
 - **Risk assessment** with a defined 5×5 methodology, 26 risks, and traceability from
   gap to asset to Annex A control to treatment.
 - **Statement of Applicability** covering all 93 Annex A controls, with two justified
   exclusions and honest implementation status.
-- **14 policies and 11 operational documents** written for a 60-person cloud-native
-  company, not copied from an enterprise template.
+- **13 topic-specific policies and operational documents** written for a 60-person
+  cloud-native company, not copied from an enterprise template.
 - **Evidence** for access, backups, continuity, incidents, awareness, suppliers, and
   privacy.
-- **Independent internal audit** with three minor nonconformities, four observations, and
-  two improvement opportunities.
+- **Simulated internal audit** with three minor nonconformities, four observations, and
+  two improvement opportunities. Because this is a simulation, the auditor is a
+  fictional role played by the same author; it is not a real independent audit.
 - **Management review** with decisions, owners, and due dates.
 - **Corrective action log** connecting audit findings to owners and closure evidence.
 
@@ -58,13 +59,13 @@ This is a complete simulated ISMS engagement, not a document template pack:
 | Context and scope | November 2026 | NH-CTX-001 to NH-CTX-003 |
 | Leadership and policy | December 2026 | Information security policy; roles and RACI |
 | Risk assessment | January 2027 | Methodology, asset register, risk register |
-| Treatment and SoA | January–February 2027 | Treatment plan; 93-control SoA; 14 policies |
+| Treatment and SoA | January–February 2027 | Treatment plan; 93-control SoA; 13 policies |
 | Implementation and evidence | February–March 2027 | Procedures, access reviews, restore test, supplier register, awareness |
-| Internal audit | 12–16 April 2027 | Audit report and findings (23 April 2027) |
+| Simulated internal audit | 12–16 April 2027 | Audit report and findings (23 April 2027) |
 | Management review | 29 April 2027 | Decisions and certification application |
-| Stage 1 audit | June 2027 (planned) | Certification readiness |
+| Nabd Health's planned Stage 1 audit | June 2027 (fictional) | Certification readiness |
 
-Simulation time is independent of the repository's real creation date, as defined in
+Simulation time is separate from the repository's real creation date, as defined in
 Section 19 of the fact base.
 
 ## 4. Document index
