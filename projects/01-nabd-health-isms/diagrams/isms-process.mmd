@@ -1,0 +1,30 @@
+%% ISMS process map mapped to ISO/IEC 27001:2022 clauses
+flowchart TB
+    subgraph PLAN["PLAN"]
+        C4["4. Context of the organization\nissues, parties, scope"]
+        C5["5. Leadership\npolicy, roles, commitment"]
+        C6["6. Planning\nrisk assessment, treatment, objectives"]
+    end
+
+    subgraph DO["DO"]
+        C7["7. Support\nresources, competence, awareness, communication, documented information"]
+        C8["8. Operation\nrisk treatment, operational controls, supplier and incident management"]
+    end
+
+    subgraph CHECK["CHECK"]
+        C9["9. Performance evaluation\nmonitoring, KPI, internal audit, management review"]
+    end
+
+    subgraph ACT["ACT"]
+        C10["10. Improvement\nnonconformity, corrective action, continual improvement"]
+    end
+
+    C4 --> C5 --> C6 --> C7 --> C8 --> C9 --> C10
+    C10 -->|"lessons and changes"| C6
+    C9 -->|"audit findings and review decisions"| C8
+
+    ANNEX["Annex A controls\nA.5 Organizational\nA.6 People\nA.7 Physical\nA.8 Technological"] -.-> C8
+    RISK["Risk register\nNH-REG-002"] -.-> C6
+    SOA["Statement of Applicability\nNH-SOA-001"] -.-> C6
+    EVID["Evidence index\nNH-EVD-001"] -.-> C9
+    NC["Corrective action log\nNH-NC-001"] -.-> C10

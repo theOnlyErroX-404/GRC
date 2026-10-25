@@ -1,0 +1,70 @@
+%% Nabd Health platform architecture (simulated)
+%% Simplified logical view for the ISMS scope. Not a deployment specification.
+flowchart LR
+    subgraph USERS["Users"]
+        CS["Clinic and hospital staff"]
+        PAT["Patients"]
+        SUP["Nabd support and operations"]
+        ENG["Engineers and DevOps"]
+    end
+
+    subgraph EDGE["Public edge"]
+        CF["CloudFront + AWS WAF\nTLS 1.2+"]
+        ALB["Application Load Balancer"]
+        VPN["Corporate VPN\nMFA required"]
+    end
+
+    subgraph APP["Production account nabd-prod"]
+        WEB["ECS Fargate\nweb service"]
+        API["ECS Fargate\napi service"]
+        ADM["Admin Panel\nseparate service"]
+        WRK["ECS Fargate\nworker service"]
+        RDS[("RDS PostgreSQL\nMulti-AZ, encrypted")]
+        S3[("S3 patient-files\nSSE, versioned")]
+        RED[("ElastiCache Redis\nin-transit encryption")]
+        SQS["SQS queues"]
+        SEC["Secrets Manager\nKMS"]
+        LOG["CloudWatch + CloudTrail\n12-month security retention"]
+    end
+
+    subgraph OPS["Operations and development"]
+        GH["GitHub organization\n2FA, branch protection"]
+        CICD["GitHub Actions\nOIDC, scanning"]
+        ECR["Amazon ECR\nsigned images"]
+        BAST["Bastion host\nper-person certificates"]
+        TF["Terraform state\nversioned and locked"]
+    end
+
+    subgraph EXT["External suppliers"]
+        SMS["SMSGate\nSMS OTP and reminders"]
+        VB["VideoBridge\ntelemedicine media"]
+        PAY["PayNile\nhosted payment page"]
+        SES["Amazon SES\ntransactional email"]
+    end
+
+    CS --> CF
+    PAT --> CF
+    CF --> ALB
+    SUP --> VPN --> ALB
+    ENG --> VPN
+    ALB --> WEB
+    ALB --> API
+    ALB --> ADM
+    API --> RDS
+    API --> S3
+    API --> RED
+    API --> SQS
+    API --> SEC
+    SQS --> WRK
+    WRK --> SES
+    WRK --> SMS
+    API --> VB
+    API --> PAY
+    API --> LOG
+    ADM --> LOG
+    GH --> CICD --> ECR --> APP
+    TF --> APP
+    ENG --> BAST
+    BAST --> RDS
+    SEC -.-> API
+    LOG -.->|"alerts to on-call"| ENG
